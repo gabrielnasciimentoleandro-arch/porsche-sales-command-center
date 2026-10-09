@@ -1,0 +1,71 @@
+{
+  "project": "Porsche Velocity",
+  "version": "1.0.0",
+  "author": "0Barone (@gabrielnasciimentoleandro-arch)",
+  "generated_on": "2026-10-09",
+  "source_url": "https://hermes.dio.me/files/assets/8683bed0-cc33-4e06-bca9-04db9c31f9e2.xlsx",
+  "source_sha256": "f874650657ca4e1a99fd4462b297bfc5fd9915e8e693956d9cec47eda2cb2e2d",
+  "records": 100,
+  "source_unique_ids": 100,
+  "invalid_dates": 24,
+  "valid_dates": 76,
+  "valid_date_min": "2024-03-14",
+  "valid_date_max": "2027-10-01",
+  "future_dates_at_build": 21,
+  "public_fields": [
+    "model",
+    "family",
+    "model_year",
+    "price",
+    "mileage",
+    "payment",
+    "city",
+    "state",
+    "status",
+    "status_group",
+    "powertrain"
+  ],
+  "removed_fields": [
+    "sale_id",
+    "customer_name",
+    "salesperson",
+    "all raw/non-sanitized columns",
+    "sale date values"
+  ],
+  "quality_note": "Datas foram excluídas dos indicadores por conterem valores INVALID e datas futuras.",
+  "totals": {
+    "gross_value": 12827800.5,
+    "active_value": 12202550.5,
+    "active_transactions": 93,
+    "delivered_transactions": 41,
+    "cancelled_transactions": 7
+  },
+  "dimensions": {
+    "families": {
+      "718": 12,
+      "911": 23,
+      "Cayenne": 18,
+      "Macan": 17,
+      "Panamera": 14,
+      "Taycan": 16
+    },
+    "states": 33,
+    "cities": 79,
+    "payment_methods": {
+      "ACH Payment": 4,
+      "Bank Transfer": 10,
+      "Cash": 12,
+      "Credit Card": 15,
+      "Crypto Payment": 6,
+      "Debit Card": 4,
+      "Financing": 13,
+      "Lease": 10,
+      "Wire Transfer": 26
+    },
+    "status_groups": {
+      "Cancelled": 7,
+      "Delivered": 41,
+      "In progress": 52
+    }
+  }
+}

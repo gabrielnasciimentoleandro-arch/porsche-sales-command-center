@@ -1,0 +1,26 @@
+# Fonte local: baixada automaticamente e não publicada
+data/source/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node / browser tests locais
+node_modules/
+test-results/
+playwright-report/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
